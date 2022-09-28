@@ -1,0 +1,60 @@
+.nav {
+  height: 72px;
+  width: 1440px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+  font-family: "Roboto";
+  font-style: normal;
+}
+
+.nav .logo {
+  display: flex;
+  align-items: center;
+  width: 12%;
+}
+
+.nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+}
+
+.nav li {
+  margin: 0;
+  padding: 1.5rem;
+  color: #1d2130;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+button.dark {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 40px;
+  width: 144px;
+  height: 56px;
+  background: #1d2130;
+  border-radius: 12px;
+  border: none;
+  color: white;
+}
+
+button.dark:hover {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 40px;
+  width: 144px;
+  height: 56px;
+  background: #313852;
+  border-radius: 12px;
+  border: none;
+  color: white;
+}
