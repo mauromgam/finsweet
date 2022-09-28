@@ -23,15 +23,28 @@
 }
 
 .nav li {
+  display: inline-block;
   margin: 0;
-  padding: 1.5rem;
+  padding: 25px;
   color: #1d2130;
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
 }
 
-button.dark {
+.nav li a {
+  text-decoration: none;
+  color: #1d2130;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.nav li a:hover {
+  font-weight: bold;
+}
+
+.nav button {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -41,20 +54,13 @@ button.dark {
   height: 56px;
   background: #1d2130;
   border-radius: 12px;
-  border: none;
   color: white;
+  border: 0 none;
+  cursor: pointer;
+  outline: none;
 }
 
-button.dark:hover {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 16px 40px;
-  width: 144px;
-  height: 56px;
+.nav button:hover {
   background: #313852;
-  border-radius: 12px;
-  border: none;
   color: white;
 }
