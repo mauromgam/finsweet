@@ -14,9 +14,7 @@ function App() {
   return (
     <React.Fragment>
       <Header />
-      <main>
-        <Home />
-      </main>
+      <Home />
       <Footer />
     </React.Fragment>
   );
