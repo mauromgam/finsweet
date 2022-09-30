@@ -1,5 +1,6 @@
 .header {
-  position: fixed;
+  /*When you do position fixed, you must put MainContent padding of 5rem. Same as Header height.*/
+  /*position: fixed;*/
   top: 0;
   left: 0;
   width: 100%;
