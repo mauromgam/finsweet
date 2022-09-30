@@ -1,7 +1,6 @@
 import React from "react";
 import classes from "./Footer.module.css";
 
-import logo from "../../images/logo-white.svg";
 import facebookLogo from "../../images/facebook.svg";
 import twitterLogo from "../../images/twitter.svg";
 import instagramLogo from "../../images/instagram.svg";
@@ -9,7 +8,7 @@ import linkedinLogo from "../../images/linkedin.svg";
 
 const Footer = () => {
   return (
-    <div className={classes.footer}>
+    <footer className={classes.footer}>
       <div className={classes.column}>
         <label>Company</label>
         <ul>
@@ -18,9 +17,6 @@ const Footer = () => {
           </li>
           <li>
             <a href="/">Why Choose us</a>
-          </li>
-          <li>
-            <a href="/">Pricing</a>
           </li>
           <li>
             <a href="/">Testimonial</a>
@@ -45,31 +41,20 @@ const Footer = () => {
         </ul>
       </div>
       <div className={classes.column}>
-        <label>Products</label>
+        <label>Services</label>
         <ul>
           <li>
-            <a href="/">Project management</a>
+            <a href="/">Car Rental</a>
           </li>
           <li>
-            <a href="/">Time tracker</a>
+            <a href="/">Van Rental</a>
           </li>
           <li>
-            <a href="/">Time schedule</a>
-          </li>
-          <li>
-            <a href="/">Lead generate</a>
-          </li>
-          <li>
-            <a href="/">Remote Collaboration</a>
+            <a href="/">Motorbike Rental</a>
           </li>
         </ul>
       </div>
       <div className={classes.column}>
-        <ul>
-          <li>
-            <img src={logo} className={classes.logo} alt="logo" />
-          </li>
-        </ul>
         <label>Subscribe to our Newsletter</label>
         <form>
           <div className={classes.subscribe}>
@@ -82,7 +67,7 @@ const Footer = () => {
           </div>
         </form>
       </div>
-      <div className={classes.break}></div>
+      <div className="break"></div>
       <div className={classes.social}>
         <ul>
           <li>
@@ -106,7 +91,7 @@ const Footer = () => {
           </li>
         </ul>
       </div>
-    </div>
+    </footer>
   );
 };
 

@@ -3,7 +3,7 @@
   flex-wrap: wrap;
   justify-content: space-between;
   position: absolute;
-  height: 383px;
+  height: 280px;
   width: 1440px;
   border-radius: 0px;
   background: #1d2130;
@@ -55,11 +55,6 @@
   text-transform: capitalize;
   color: #ffffff;
   padding: 0.5rem;
-}
-
-.break {
-  flex-basis: 100%;
-  height: 0;
 }
 
 div.column {
